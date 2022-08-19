@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BarricadeKit",
+        "repositoryURL": "https://github.com/karthik-kumar-mm/BarricadeKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "7b36f396e26a2edf612c2c3c8861b68b811e79c0",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

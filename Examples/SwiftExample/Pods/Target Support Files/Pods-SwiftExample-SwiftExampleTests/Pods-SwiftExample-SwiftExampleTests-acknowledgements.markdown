@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## BarricadeKit
+## BarricadeKit-MM
 
 The MIT License (MIT)
 

@@ -1,25 +1,23 @@
 PODS:
-  - BarricadeKit (2.0.0):
-    - BarricadeKit/Core (= 2.0.0)
-  - BarricadeKit/Core (2.0.0)
+  - BarricadeKit-MM (1.0.2)
   - Tweaks (2.0.0)
 
 DEPENDENCIES:
-  - BarricadeKit (from `../..`)
+  - BarricadeKit-MM (from `../..`)
   - Tweaks (= 2.0.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Tweaks
 
 EXTERNAL SOURCES:
-  BarricadeKit:
+  BarricadeKit-MM:
     :path: "../.."
 
 SPEC CHECKSUMS:
-  BarricadeKit: 423d9b305674594a38f0cad8764522a081ba19ea
+  BarricadeKit-MM: 8591123bef4094439b9d2c354fd1a81533ceddc8
   Tweaks: 524fa47636cce3bf3a4d9156e980f10ae9480e81
 
-PODFILE CHECKSUM: 46d7801c81535845cf7e29debf7c19695325586d
+PODFILE CHECKSUM: 9c1c6c8497b3ccae95a0ce713f1043e4b2b74b0d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1

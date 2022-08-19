@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double BarricadeKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char BarricadeKitVersionString[];
+FOUNDATION_EXPORT double BarricadeKit_MMVersionNumber;
+FOUNDATION_EXPORT const unsigned char BarricadeKit_MMVersionString[];
 

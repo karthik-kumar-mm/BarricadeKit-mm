@@ -1,0 +1,6 @@
+framework module BarricadeKit_MM {
+  umbrella header "BarricadeKit-MM-umbrella.h"
+
+  export *
+  module * { export * }
+}

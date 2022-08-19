@@ -7,25 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B11E8B81EC0C3660011832A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11E8B71EC0C3660011832A /* Response.swift */; };
-		5B11E8BA1EC0C39F0011832A /* StandardNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11E8B91EC0C39F0011832A /* StandardNetworkResponse.swift */; };
-		5B11E8BF1EC0D0990011832A /* StandardNetworkResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11E8BD1EC0CCBC0011832A /* StandardNetworkResponseTests.swift */; };
-		5B7DC4E71EC0D6DB00FCDA3A /* Response+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4E61EC0D6DB00FCDA3A /* Response+Convenience.swift */; };
-		5B7DC4E91EC0D92C00FCDA3A /* ResponseSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4E81EC0D92C00FCDA3A /* ResponseSetTests.swift */; };
-		5B7DC4EF1EC0E0C500FCDA3A /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4EE1EC0E0C500FCDA3A /* ErrorResponse.swift */; };
-		5B7DC4F11EC0E0EF00FCDA3A /* StandardErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4F01EC0E0EF00FCDA3A /* StandardErrorResponse.swift */; };
-		5B7DC4F31EC0E25800FCDA3A /* ResponseSetEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4F21EC0E25800FCDA3A /* ResponseSetEvaluation.swift */; };
-		5B7DC4F51EC0E2B700FCDA3A /* ResponseSetEvaluationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4F41EC0E2B700FCDA3A /* ResponseSetEvaluationTests.swift */; };
-		5B7DC4F71EC0E4C800FCDA3A /* InMemoryResponseStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4F61EC0E4C800FCDA3A /* InMemoryResponseStoreTests.swift */; };
-		5B7DC4FB1EC1213300FCDA3A /* BarricadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4FA1EC1213300FCDA3A /* BarricadeTests.swift */; };
-		5B7DC5001EC2244500FCDA3A /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4FD1EC2244500FCDA3A /* ContentType.swift */; };
-		5B7DC5011EC2244500FCDA3A /* BarricadeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4FE1EC2244500FCDA3A /* BarricadeError.swift */; };
-		5B7DC5021EC2244500FCDA3A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC4FF1EC2244500FCDA3A /* Header.swift */; };
-		5B7DC50F1EC2349B00FCDA3A /* ResponseSet+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC50E1EC2349B00FCDA3A /* ResponseSet+Convenience.swift */; };
-		5B7DC5121EC2436500FCDA3A /* ResponseSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC5111EC2436500FCDA3A /* ResponseSelectionViewController.swift */; };
-		5B7DC5141EC2438700FCDA3A /* ResponseSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC5131EC2438700FCDA3A /* ResponseSetViewController.swift */; };
-		5B7DC5161EC243CC00FCDA3A /* BarricadeShakeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC5151EC243CC00FCDA3A /* BarricadeShakeWindow.swift */; };
-		5B7DC5181EC2452500FCDA3A /* BarricadeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC5171EC2452500FCDA3A /* BarricadeNavigationController.swift */; };
 		5B9E8E851EBCF7D4002A85B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E8E841EBCF7D4002A85B5 /* AppDelegate.swift */; };
 		5B9E8E871EBCF7D4002A85B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E8E861EBCF7D4002A85B5 /* ViewController.swift */; };
 		5B9E8E8A1EBCF7D4002A85B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9E8E881EBCF7D4002A85B5 /* Main.storyboard */; };
@@ -37,12 +18,34 @@
 		5B9E8ECA1EBD06C1002A85B5 /* BarricadeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9E8EBA1EBD06C1002A85B5 /* BarricadeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B9E8ECD1EBD06C1002A85B5 /* BarricadeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9E8EB81EBD06C1002A85B5 /* BarricadeKit.framework */; };
 		5B9E8ECE1EBD06C1002A85B5 /* BarricadeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9E8EB81EBD06C1002A85B5 /* BarricadeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B9E8EDF1EBD072F002A85B5 /* Barricade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E8ED81EBD072F002A85B5 /* Barricade.swift */; };
-		5B9E8EE01EBD072F002A85B5 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E8EDA1EBD072F002A85B5 /* NetworkResponse.swift */; };
-		5B9E8EE11EBD072F002A85B5 /* ResponseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E8EDC1EBD072F002A85B5 /* ResponseSet.swift */; };
-		5B9E8EE21EBD072F002A85B5 /* ResponseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E8EDE1EBD072F002A85B5 /* ResponseStore.swift */; };
-		5BB019981EC37336001D97FC /* BarricadeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB019971EC37336001D97FC /* BarricadeKit.swift */; };
-		5BB0199A1EC37937001D97FC /* FileBasedResponseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB019991EC37937001D97FC /* FileBasedResponseGenerator.swift */; };
+		68CA517C28AEAD720079D6AB /* FileBasedResponseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516728AEAD710079D6AB /* FileBasedResponseGenerator.swift */; };
+		68CA517D28AEAD720079D6AB /* ResponseSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516828AEAD710079D6AB /* ResponseSelectionViewController.swift */; };
+		68CA517E28AEAD720079D6AB /* StandardNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516928AEAD710079D6AB /* StandardNetworkResponse.swift */; };
+		68CA517F28AEAD720079D6AB /* ResponseSet+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516A28AEAD710079D6AB /* ResponseSet+Convenience.swift */; };
+		68CA518028AEAD720079D6AB /* BarricadeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516B28AEAD710079D6AB /* BarricadeNavigationController.swift */; };
+		68CA518128AEAD720079D6AB /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516C28AEAD710079D6AB /* ErrorResponse.swift */; };
+		68CA518228AEAD720079D6AB /* Response+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516D28AEAD720079D6AB /* Response+Convenience.swift */; };
+		68CA518328AEAD720079D6AB /* ResponseSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516E28AEAD720079D6AB /* ResponseSetViewController.swift */; };
+		68CA518428AEAD720079D6AB /* StandardErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA516F28AEAD720079D6AB /* StandardErrorResponse.swift */; };
+		68CA518528AEAD720079D6AB /* BarricadeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517028AEAD720079D6AB /* BarricadeKit.swift */; };
+		68CA518628AEAD720079D6AB /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517128AEAD720079D6AB /* Response.swift */; };
+		68CA518728AEAD720079D6AB /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517228AEAD720079D6AB /* NetworkResponse.swift */; };
+		68CA518828AEAD720079D6AB /* Barricade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517328AEAD720079D6AB /* Barricade.swift */; };
+		68CA518928AEAD720079D6AB /* BarricadeShakeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517428AEAD720079D6AB /* BarricadeShakeWindow.swift */; };
+		68CA518A28AEAD720079D6AB /* ResponseSetEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517528AEAD720079D6AB /* ResponseSetEvaluation.swift */; };
+		68CA518B28AEAD720079D6AB /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517628AEAD720079D6AB /* ContentType.swift */; };
+		68CA518C28AEAD720079D6AB /* BarricadeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517728AEAD720079D6AB /* BarricadeError.swift */; };
+		68CA518D28AEAD720079D6AB /* ResponseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517828AEAD720079D6AB /* ResponseSet.swift */; };
+		68CA518E28AEAD720079D6AB /* BarricadeKit_master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517928AEAD720079D6AB /* BarricadeKit_master.swift */; };
+		68CA518F28AEAD720079D6AB /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517A28AEAD720079D6AB /* Header.swift */; };
+		68CA519028AEAD720079D6AB /* ResponseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA517B28AEAD720079D6AB /* ResponseStore.swift */; };
+		68CA519328AEB0030079D6AB /* BarricadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA519228AEB0030079D6AB /* BarricadeTests.swift */; };
+		68CA519B28AEB0150079D6AB /* BarricadeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA519528AEB0140079D6AB /* BarricadeKitTests.swift */; };
+		68CA519C28AEB0150079D6AB /* ResponseSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA519628AEB0140079D6AB /* ResponseSetTests.swift */; };
+		68CA519D28AEB0150079D6AB /* StandardNetworkResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA519728AEB0140079D6AB /* StandardNetworkResponseTests.swift */; };
+		68CA519E28AEB0150079D6AB /* InMemoryResponseStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA519828AEB0140079D6AB /* InMemoryResponseStoreTests.swift */; };
+		68CA519F28AEB0150079D6AB /* ResponseSetEvaluationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA519928AEB0140079D6AB /* ResponseSetEvaluationTests.swift */; };
+		68CA51A028AEB0150079D6AB /* BarricadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA519A28AEB0140079D6AB /* BarricadeTests.swift */; };
 		98ECB0DB8A713AEB0D66C624 /* Pods_Barricade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F1013CA6C3A97D062D2195 /* Pods_Barricade.framework */; };
 		DA6CD1FE1B60DB5A933DB304 /* Pods_Barricade_BarricadeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92BB8569C7684542BB586DE /* Pods_Barricade_BarricadeTests.framework */; };
 /* End PBXBuildFile section */
@@ -88,25 +91,6 @@
 /* Begin PBXFileReference section */
 		28DE845F9CC7DEE88465F164 /* Pods-Barricade-BarricadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barricade-BarricadeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barricade-BarricadeTests/Pods-Barricade-BarricadeTests.release.xcconfig"; sourceTree = "<group>"; };
 		351880403406CEA5134D5982 /* Pods-Barricade-BarricadeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barricade-BarricadeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Barricade-BarricadeTests/Pods-Barricade-BarricadeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B11E8B71EC0C3660011832A /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		5B11E8B91EC0C39F0011832A /* StandardNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardNetworkResponse.swift; sourceTree = "<group>"; };
-		5B11E8BD1EC0CCBC0011832A /* StandardNetworkResponseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardNetworkResponseTests.swift; sourceTree = "<group>"; };
-		5B7DC4E61EC0D6DB00FCDA3A /* Response+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+Convenience.swift"; sourceTree = "<group>"; };
-		5B7DC4E81EC0D92C00FCDA3A /* ResponseSetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSetTests.swift; sourceTree = "<group>"; };
-		5B7DC4EE1EC0E0C500FCDA3A /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
-		5B7DC4F01EC0E0EF00FCDA3A /* StandardErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardErrorResponse.swift; sourceTree = "<group>"; };
-		5B7DC4F21EC0E25800FCDA3A /* ResponseSetEvaluation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSetEvaluation.swift; sourceTree = "<group>"; };
-		5B7DC4F41EC0E2B700FCDA3A /* ResponseSetEvaluationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSetEvaluationTests.swift; sourceTree = "<group>"; };
-		5B7DC4F61EC0E4C800FCDA3A /* InMemoryResponseStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryResponseStoreTests.swift; sourceTree = "<group>"; };
-		5B7DC4FA1EC1213300FCDA3A /* BarricadeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarricadeTests.swift; sourceTree = "<group>"; };
-		5B7DC4FD1EC2244500FCDA3A /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
-		5B7DC4FE1EC2244500FCDA3A /* BarricadeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarricadeError.swift; sourceTree = "<group>"; };
-		5B7DC4FF1EC2244500FCDA3A /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
-		5B7DC50E1EC2349B00FCDA3A /* ResponseSet+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ResponseSet+Convenience.swift"; sourceTree = "<group>"; };
-		5B7DC5111EC2436500FCDA3A /* ResponseSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSelectionViewController.swift; sourceTree = "<group>"; };
-		5B7DC5131EC2438700FCDA3A /* ResponseSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSetViewController.swift; sourceTree = "<group>"; };
-		5B7DC5151EC243CC00FCDA3A /* BarricadeShakeWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarricadeShakeWindow.swift; sourceTree = "<group>"; };
-		5B7DC5171EC2452500FCDA3A /* BarricadeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarricadeNavigationController.swift; sourceTree = "<group>"; };
 		5B9E8E811EBCF7D4002A85B5 /* Barricade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barricade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9E8E841EBCF7D4002A85B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B9E8E861EBCF7D4002A85B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,12 +108,37 @@
 		5B9E8EC01EBD06C1002A85B5 /* BarricadeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarricadeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9E8EC71EBD06C1002A85B5 /* BarricadeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarricadeKitTests.swift; sourceTree = "<group>"; };
 		5B9E8EC91EBD06C1002A85B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B9E8ED81EBD072F002A85B5 /* Barricade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barricade.swift; sourceTree = "<group>"; };
-		5B9E8EDA1EBD072F002A85B5 /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
-		5B9E8EDC1EBD072F002A85B5 /* ResponseSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSet.swift; sourceTree = "<group>"; };
-		5B9E8EDE1EBD072F002A85B5 /* ResponseStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseStore.swift; sourceTree = "<group>"; };
-		5BB019971EC37336001D97FC /* BarricadeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarricadeKit.swift; sourceTree = "<group>"; };
-		5BB019991EC37937001D97FC /* FileBasedResponseGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileBasedResponseGenerator.swift; sourceTree = "<group>"; };
+		68CA516728AEAD710079D6AB /* FileBasedResponseGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileBasedResponseGenerator.swift; path = ../../Sources/BarricadeKit/FileBasedResponseGenerator.swift; sourceTree = "<group>"; };
+		68CA516828AEAD710079D6AB /* ResponseSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSelectionViewController.swift; path = ../../Sources/BarricadeKit/ResponseSelectionViewController.swift; sourceTree = "<group>"; };
+		68CA516928AEAD710079D6AB /* StandardNetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardNetworkResponse.swift; path = ../../Sources/BarricadeKit/StandardNetworkResponse.swift; sourceTree = "<group>"; };
+		68CA516A28AEAD710079D6AB /* ResponseSet+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ResponseSet+Convenience.swift"; path = "../../Sources/BarricadeKit/ResponseSet+Convenience.swift"; sourceTree = "<group>"; };
+		68CA516B28AEAD710079D6AB /* BarricadeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarricadeNavigationController.swift; path = ../../Sources/BarricadeKit/BarricadeNavigationController.swift; sourceTree = "<group>"; };
+		68CA516C28AEAD710079D6AB /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorResponse.swift; path = ../../Sources/BarricadeKit/ErrorResponse.swift; sourceTree = "<group>"; };
+		68CA516D28AEAD720079D6AB /* Response+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Response+Convenience.swift"; path = "../../Sources/BarricadeKit/Response+Convenience.swift"; sourceTree = "<group>"; };
+		68CA516E28AEAD720079D6AB /* ResponseSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSetViewController.swift; path = ../../Sources/BarricadeKit/ResponseSetViewController.swift; sourceTree = "<group>"; };
+		68CA516F28AEAD720079D6AB /* StandardErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardErrorResponse.swift; path = ../../Sources/BarricadeKit/StandardErrorResponse.swift; sourceTree = "<group>"; };
+		68CA517028AEAD720079D6AB /* BarricadeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarricadeKit.swift; path = ../../Sources/BarricadeKit/BarricadeKit.swift; sourceTree = "<group>"; };
+		68CA517128AEAD720079D6AB /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Response.swift; path = ../../Sources/BarricadeKit/Response.swift; sourceTree = "<group>"; };
+		68CA517228AEAD720079D6AB /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkResponse.swift; path = ../../Sources/BarricadeKit/NetworkResponse.swift; sourceTree = "<group>"; };
+		68CA517328AEAD720079D6AB /* Barricade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Barricade.swift; path = ../../Sources/BarricadeKit/Barricade.swift; sourceTree = "<group>"; };
+		68CA517428AEAD720079D6AB /* BarricadeShakeWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarricadeShakeWindow.swift; path = ../../Sources/BarricadeKit/BarricadeShakeWindow.swift; sourceTree = "<group>"; };
+		68CA517528AEAD720079D6AB /* ResponseSetEvaluation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSetEvaluation.swift; path = ../../Sources/BarricadeKit/ResponseSetEvaluation.swift; sourceTree = "<group>"; };
+		68CA517628AEAD720079D6AB /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = ../../Sources/BarricadeKit/ContentType.swift; sourceTree = "<group>"; };
+		68CA517728AEAD720079D6AB /* BarricadeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarricadeError.swift; path = ../../Sources/BarricadeKit/BarricadeError.swift; sourceTree = "<group>"; };
+		68CA517828AEAD720079D6AB /* ResponseSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSet.swift; path = ../../Sources/BarricadeKit/ResponseSet.swift; sourceTree = "<group>"; };
+		68CA517928AEAD720079D6AB /* BarricadeKit_master.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarricadeKit_master.swift; path = ../../Sources/BarricadeKit/BarricadeKit_master.swift; sourceTree = "<group>"; };
+		68CA517A28AEAD720079D6AB /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Header.swift; path = ../../Sources/BarricadeKit/Header.swift; sourceTree = "<group>"; };
+		68CA517B28AEAD720079D6AB /* ResponseStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseStore.swift; path = ../../Sources/BarricadeKit/ResponseStore.swift; sourceTree = "<group>"; };
+		68CA519228AEB0030079D6AB /* BarricadeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarricadeTests.swift; sourceTree = "<group>"; };
+		68CA519528AEB0140079D6AB /* BarricadeKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarricadeKitTests.swift; sourceTree = "<group>"; };
+		68CA519628AEB0140079D6AB /* ResponseSetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSetTests.swift; sourceTree = "<group>"; };
+		68CA519728AEB0140079D6AB /* StandardNetworkResponseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardNetworkResponseTests.swift; sourceTree = "<group>"; };
+		68CA519828AEB0140079D6AB /* InMemoryResponseStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryResponseStoreTests.swift; sourceTree = "<group>"; };
+		68CA519928AEB0140079D6AB /* ResponseSetEvaluationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSetEvaluationTests.swift; sourceTree = "<group>"; };
+		68CA519A28AEB0140079D6AB /* BarricadeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarricadeTests.swift; sourceTree = "<group>"; };
+		68CA51A328AEB4930079D6AB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		68CA51A528AEB4930079D6AB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		68CA51A728AEB4930079D6AB /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		D696C9CD8CAED1058FB9CF32 /* Pods-Barricade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barricade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Barricade/Pods-Barricade.debug.xcconfig"; sourceTree = "<group>"; };
 		D92BB8569C7684542BB586DE /* Pods_Barricade_BarricadeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barricade_BarricadeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E9E1F964F3EB91D8FE6DE8 /* Pods-Barricade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barricade.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barricade/Pods-Barricade.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,58 +181,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B7DC4FC1EC2244500FCDA3A /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				5B7DC4FD1EC2244500FCDA3A /* ContentType.swift */,
-				5B7DC4FE1EC2244500FCDA3A /* BarricadeError.swift */,
-				5B7DC4FF1EC2244500FCDA3A /* Header.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		5B7DC5041EC2315800FCDA3A /* Sourcery */ = {
-			isa = PBXGroup;
-			children = (
-				5B7DC5051EC2315800FCDA3A /* Generated */,
-				5B7DC50B1EC231A000FCDA3A /* Stubs */,
-				5B7DC5071EC2315800FCDA3A /* Templates */,
-			);
-			path = Sourcery;
-			sourceTree = "<group>";
-		};
-		5B7DC5051EC2315800FCDA3A /* Generated */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Generated;
-			sourceTree = "<group>";
-		};
-		5B7DC5071EC2315800FCDA3A /* Templates */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Templates;
-			sourceTree = "<group>";
-		};
-		5B7DC50B1EC231A000FCDA3A /* Stubs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Stubs;
-			sourceTree = "<group>";
-		};
-		5B7DC5101EC2435900FCDA3A /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				5B7DC5151EC243CC00FCDA3A /* BarricadeShakeWindow.swift */,
-				5B7DC5171EC2452500FCDA3A /* BarricadeNavigationController.swift */,
-				5B7DC5131EC2438700FCDA3A /* ResponseSetViewController.swift */,
-				5B7DC5111EC2436500FCDA3A /* ResponseSelectionViewController.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
 		5B9E8E781EBCF7D4002A85B5 = {
 			isa = PBXGroup;
 			children = (
@@ -274,7 +231,30 @@
 		5B9E8EB91EBD06C1002A85B5 /* BarricadeKit */ = {
 			isa = PBXGroup;
 			children = (
-				5B9E8ED61EBD072F002A85B5 /* BarricadeKit */,
+				68CA517328AEAD720079D6AB /* Barricade.swift */,
+				68CA517728AEAD720079D6AB /* BarricadeError.swift */,
+				68CA517928AEAD720079D6AB /* BarricadeKit_master.swift */,
+				68CA517028AEAD720079D6AB /* BarricadeKit.swift */,
+				68CA516B28AEAD710079D6AB /* BarricadeNavigationController.swift */,
+				68CA517428AEAD720079D6AB /* BarricadeShakeWindow.swift */,
+				68CA517628AEAD720079D6AB /* ContentType.swift */,
+				68CA516C28AEAD710079D6AB /* ErrorResponse.swift */,
+				68CA516728AEAD710079D6AB /* FileBasedResponseGenerator.swift */,
+				68CA517A28AEAD720079D6AB /* Header.swift */,
+				68CA517228AEAD720079D6AB /* NetworkResponse.swift */,
+				68CA517128AEAD720079D6AB /* Response.swift */,
+				68CA516D28AEAD720079D6AB /* Response+Convenience.swift */,
+				68CA516828AEAD710079D6AB /* ResponseSelectionViewController.swift */,
+				68CA517828AEAD720079D6AB /* ResponseSet.swift */,
+				68CA516A28AEAD710079D6AB /* ResponseSet+Convenience.swift */,
+				68CA517528AEAD720079D6AB /* ResponseSetEvaluation.swift */,
+				68CA516E28AEAD720079D6AB /* ResponseSetViewController.swift */,
+				68CA517B28AEAD720079D6AB /* ResponseStore.swift */,
+				68CA516F28AEAD720079D6AB /* StandardErrorResponse.swift */,
+				68CA516928AEAD710079D6AB /* StandardNetworkResponse.swift */,
+				68CA51A128AEB4930079D6AB /* Sourcery */,
+				68CA519428AEB0140079D6AB /* BarricadeKitTests */,
+				68CA519128AEB0030079D6AB /* BarricadeTests */,
 				5B9E8EBA1EBD06C1002A85B5 /* BarricadeKit.h */,
 				5B9E8EBB1EBD06C1002A85B5 /* Info.plist */,
 			);
@@ -290,65 +270,62 @@
 			path = BarricadeKitTests;
 			sourceTree = "<group>";
 		};
-		5B9E8ED61EBD072F002A85B5 /* BarricadeKit */ = {
+		68CA519128AEB0030079D6AB /* BarricadeTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B9E8ED71EBD072F002A85B5 /* Core */,
+				68CA519228AEB0030079D6AB /* BarricadeTests.swift */,
 			);
-			name = BarricadeKit;
-			path = ../../BarricadeKit;
+			name = BarricadeTests;
+			path = ../../Tests/BarricadeTests;
 			sourceTree = "<group>";
 		};
-		5B9E8ED71EBD072F002A85B5 /* Core */ = {
+		68CA519428AEB0140079D6AB /* BarricadeKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B9E8ED81EBD072F002A85B5 /* Barricade.swift */,
-				5B7DC4FA1EC1213300FCDA3A /* BarricadeTests.swift */,
-				5BB019971EC37336001D97FC /* BarricadeKit.swift */,
-				5B7DC4FC1EC2244500FCDA3A /* Common */,
-				5B7DC5041EC2315800FCDA3A /* Sourcery */,
-				5B9E8ED91EBD072F002A85B5 /* Response */,
-				5B9E8EDB1EBD072F002A85B5 /* ResponseSet */,
-				5B9E8EDD1EBD072F002A85B5 /* ResponseStore */,
-				5B7DC5101EC2435900FCDA3A /* UI */,
+				68CA519528AEB0140079D6AB /* BarricadeKitTests.swift */,
+				68CA519628AEB0140079D6AB /* ResponseSetTests.swift */,
+				68CA519728AEB0140079D6AB /* StandardNetworkResponseTests.swift */,
+				68CA519828AEB0140079D6AB /* InMemoryResponseStoreTests.swift */,
+				68CA519928AEB0140079D6AB /* ResponseSetEvaluationTests.swift */,
+				68CA519A28AEB0140079D6AB /* BarricadeTests.swift */,
 			);
-			path = Core;
+			name = BarricadeKitTests;
+			path = ../../Tests/BarricadeKitTests;
 			sourceTree = "<group>";
 		};
-		5B9E8ED91EBD072F002A85B5 /* Response */ = {
+		68CA51A128AEB4930079D6AB /* Sourcery */ = {
 			isa = PBXGroup;
 			children = (
-				5B11E8B71EC0C3660011832A /* Response.swift */,
-				5B9E8EDA1EBD072F002A85B5 /* NetworkResponse.swift */,
-				5B11E8B91EC0C39F0011832A /* StandardNetworkResponse.swift */,
-				5B11E8BD1EC0CCBC0011832A /* StandardNetworkResponseTests.swift */,
-				5B7DC4EE1EC0E0C500FCDA3A /* ErrorResponse.swift */,
-				5B7DC4F01EC0E0EF00FCDA3A /* StandardErrorResponse.swift */,
-				5B7DC4E61EC0D6DB00FCDA3A /* Response+Convenience.swift */,
-				5BB019991EC37937001D97FC /* FileBasedResponseGenerator.swift */,
+				68CA51A228AEB4930079D6AB /* Generated */,
+				68CA51A428AEB4930079D6AB /* Stubs */,
+				68CA51A628AEB4930079D6AB /* Templates */,
 			);
-			path = Response;
+			name = Sourcery;
+			path = ../../Sources/BarricadeKit/Sourcery;
 			sourceTree = "<group>";
 		};
-		5B9E8EDB1EBD072F002A85B5 /* ResponseSet */ = {
+		68CA51A228AEB4930079D6AB /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				5B9E8EDC1EBD072F002A85B5 /* ResponseSet.swift */,
-				5B7DC4E81EC0D92C00FCDA3A /* ResponseSetTests.swift */,
-				5B7DC50E1EC2349B00FCDA3A /* ResponseSet+Convenience.swift */,
-				5B7DC4F21EC0E25800FCDA3A /* ResponseSetEvaluation.swift */,
-				5B7DC4F41EC0E2B700FCDA3A /* ResponseSetEvaluationTests.swift */,
+				68CA51A328AEB4930079D6AB /* .gitkeep */,
 			);
-			path = ResponseSet;
+			path = Generated;
 			sourceTree = "<group>";
 		};
-		5B9E8EDD1EBD072F002A85B5 /* ResponseStore */ = {
+		68CA51A428AEB4930079D6AB /* Stubs */ = {
 			isa = PBXGroup;
 			children = (
-				5B9E8EDE1EBD072F002A85B5 /* ResponseStore.swift */,
-				5B7DC4F61EC0E4C800FCDA3A /* InMemoryResponseStoreTests.swift */,
+				68CA51A528AEB4930079D6AB /* .gitkeep */,
 			);
-			path = ResponseStore;
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		68CA51A628AEB4930079D6AB /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				68CA51A728AEB4930079D6AB /* .gitkeep */,
+			);
+			path = Templates;
 			sourceTree = "<group>";
 		};
 		9D4AB9A70924606B85D87815 /* Frameworks */ = {
@@ -491,7 +468,7 @@
 					5B9E8EB71EBD06C1002A85B5 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = PSK5X2GYRA;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1300;
 						ProvisioningStyle = Automatic;
 					};
 					5B9E8EBF1EBD06C1002A85B5 = {
@@ -615,7 +592,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "$SRCROOT/Pods/Sourcery/bin/sourcery --sources \"${SRCROOT}/../BarricadeKit/Core\" --templates \"${SRCROOT}/../BarricadeKit/Core/Sourcery/Templates\" --output \"${SRCROOT}/../BarricadeKit/Core/Sourcery/Generated\"\n";
+			shellScript = "$SRCROOT/Pods/Sourcery/bin/sourcery --sources \"${SRCROOT}/../BarricadeKit/\" --templates \"${SRCROOT}/../BarricadeKit/Core/Sourcery/Templates\" --output \"${SRCROOT}/../BarricadeKit/Core/Sourcery/Generated\"\n";
 		};
 		9FC4F12759C3A47EA803E503 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -679,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B9E8E9A1EBCF7D4002A85B5 /* BarricadeTests.swift in Sources */,
+				68CA519328AEB0030079D6AB /* BarricadeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,26 +664,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B7DC5021EC2244500FCDA3A /* Header.swift in Sources */,
-				5B7DC5141EC2438700FCDA3A /* ResponseSetViewController.swift in Sources */,
-				5B11E8B81EC0C3660011832A /* Response.swift in Sources */,
-				5B7DC5011EC2244500FCDA3A /* BarricadeError.swift in Sources */,
-				5BB019981EC37336001D97FC /* BarricadeKit.swift in Sources */,
-				5B7DC4E71EC0D6DB00FCDA3A /* Response+Convenience.swift in Sources */,
-				5B7DC4F31EC0E25800FCDA3A /* ResponseSetEvaluation.swift in Sources */,
-				5BB0199A1EC37937001D97FC /* FileBasedResponseGenerator.swift in Sources */,
-				5B7DC4EF1EC0E0C500FCDA3A /* ErrorResponse.swift in Sources */,
-				5B9E8EE11EBD072F002A85B5 /* ResponseSet.swift in Sources */,
-				5B11E8BA1EC0C39F0011832A /* StandardNetworkResponse.swift in Sources */,
-				5B7DC5161EC243CC00FCDA3A /* BarricadeShakeWindow.swift in Sources */,
-				5B7DC5121EC2436500FCDA3A /* ResponseSelectionViewController.swift in Sources */,
-				5B9E8EE01EBD072F002A85B5 /* NetworkResponse.swift in Sources */,
-				5B7DC4F11EC0E0EF00FCDA3A /* StandardErrorResponse.swift in Sources */,
-				5B7DC50F1EC2349B00FCDA3A /* ResponseSet+Convenience.swift in Sources */,
-				5B7DC5001EC2244500FCDA3A /* ContentType.swift in Sources */,
-				5B9E8EE21EBD072F002A85B5 /* ResponseStore.swift in Sources */,
-				5B9E8EDF1EBD072F002A85B5 /* Barricade.swift in Sources */,
-				5B7DC5181EC2452500FCDA3A /* BarricadeNavigationController.swift in Sources */,
+				68CA518F28AEAD720079D6AB /* Header.swift in Sources */,
+				68CA518528AEAD720079D6AB /* BarricadeKit.swift in Sources */,
+				68CA519028AEAD720079D6AB /* ResponseStore.swift in Sources */,
+				68CA517D28AEAD720079D6AB /* ResponseSelectionViewController.swift in Sources */,
+				68CA518828AEAD720079D6AB /* Barricade.swift in Sources */,
+				68CA518D28AEAD720079D6AB /* ResponseSet.swift in Sources */,
+				68CA518C28AEAD720079D6AB /* BarricadeError.swift in Sources */,
+				68CA517C28AEAD720079D6AB /* FileBasedResponseGenerator.swift in Sources */,
+				68CA518928AEAD720079D6AB /* BarricadeShakeWindow.swift in Sources */,
+				68CA518A28AEAD720079D6AB /* ResponseSetEvaluation.swift in Sources */,
+				68CA517E28AEAD720079D6AB /* StandardNetworkResponse.swift in Sources */,
+				68CA518128AEAD720079D6AB /* ErrorResponse.swift in Sources */,
+				68CA518728AEAD720079D6AB /* NetworkResponse.swift in Sources */,
+				68CA518B28AEAD720079D6AB /* ContentType.swift in Sources */,
+				68CA518328AEAD720079D6AB /* ResponseSetViewController.swift in Sources */,
+				68CA517F28AEAD720079D6AB /* ResponseSet+Convenience.swift in Sources */,
+				68CA518628AEAD720079D6AB /* Response.swift in Sources */,
+				68CA518028AEAD720079D6AB /* BarricadeNavigationController.swift in Sources */,
+				68CA518E28AEAD720079D6AB /* BarricadeKit_master.swift in Sources */,
+				68CA518428AEAD720079D6AB /* StandardErrorResponse.swift in Sources */,
+				68CA518228AEAD720079D6AB /* Response+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,12 +692,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B7DC4F71EC0E4C800FCDA3A /* InMemoryResponseStoreTests.swift in Sources */,
-				5B7DC4E91EC0D92C00FCDA3A /* ResponseSetTests.swift in Sources */,
+				68CA519F28AEB0150079D6AB /* ResponseSetEvaluationTests.swift in Sources */,
+				68CA51A028AEB0150079D6AB /* BarricadeTests.swift in Sources */,
+				68CA519C28AEB0150079D6AB /* ResponseSetTests.swift in Sources */,
+				68CA519E28AEB0150079D6AB /* InMemoryResponseStoreTests.swift in Sources */,
+				68CA519B28AEB0150079D6AB /* BarricadeKitTests.swift in Sources */,
+				68CA519D28AEB0150079D6AB /* StandardNetworkResponseTests.swift in Sources */,
 				5B9E8EC81EBD06C1002A85B5 /* BarricadeKitTests.swift in Sources */,
-				5B7DC4FB1EC1213300FCDA3A /* BarricadeTests.swift in Sources */,
-				5B7DC4F51EC0E2B700FCDA3A /* ResponseSetEvaluationTests.swift in Sources */,
-				5B11E8BF1EC0D0990011832A /* StandardNetworkResponseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,6 +918,7 @@
 		5B9E8ED01EBD06C1002A85B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -951,6 +932,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.johntmcintosh.BarricadeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -961,6 +943,7 @@
 		5B9E8ED11EBD06C1002A85B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
