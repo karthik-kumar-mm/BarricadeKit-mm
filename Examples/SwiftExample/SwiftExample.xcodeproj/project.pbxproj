@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		5BB0198B1EC368FF001D97FC /* SwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB0198A1EC368FF001D97FC /* SwiftExampleTests.swift */; };
 		5BB019961EC3725F001D97FC /* LocalServer in Resources */ = {isa = PBXBuildFile; fileRef = 5BB019951EC3725F001D97FC /* LocalServer */; };
 		5BFE1B021EF1AEF50020614E /* Tweaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE1B011EF1AEF50020614E /* Tweaks.swift */; };
+		68BD7EC728B29F8D00147B20 /* BarricadeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 68BD7EC628B29F8D00147B20 /* BarricadeKit */; };
 		949E1181C9961199F09FD161 /* Pods_SwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2413040B95BB7FC20FE78D /* Pods_SwiftExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				949E1181C9961199F09FD161 /* Pods_SwiftExample.framework in Frameworks */,
+				68BD7EC728B29F8D00147B20 /* BarricadeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = SwiftExample;
+			packageProductDependencies = (
+				68BD7EC628B29F8D00147B20 /* BarricadeKit */,
+			);
 			productName = SwiftExample;
 			productReference = 5BB019721EC368FF001D97FC /* SwiftExample.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +216,9 @@
 				Base,
 			);
 			mainGroup = 5BB019691EC368FF001D97FC;
+			packageReferences = (
+				68BD7EC528B29F8D00147B20 /* XCRemoteSwiftPackageReference "BarricadeKit" */,
+			);
 			productRefGroup = 5BB019731EC368FF001D97FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -476,7 +484,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -488,7 +497,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PSK5X2GYRA;
 				INFOPLIST_FILE = SwiftExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.johntmcintosh.SwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -502,7 +514,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PSK5X2GYRA;
 				INFOPLIST_FILE = SwiftExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.johntmcintosh.SwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -516,7 +531,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = PSK5X2GYRA;
 				INFOPLIST_FILE = SwiftExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.johntmcintosh.SwiftExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -531,7 +550,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = PSK5X2GYRA;
 				INFOPLIST_FILE = SwiftExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.johntmcintosh.SwiftExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -570,6 +593,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68BD7EC528B29F8D00147B20 /* XCRemoteSwiftPackageReference "BarricadeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/karthik-kumar-mm/BarricadeKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68BD7EC628B29F8D00147B20 /* BarricadeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68BD7EC528B29F8D00147B20 /* XCRemoteSwiftPackageReference "BarricadeKit" */;
+			productName = BarricadeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BB0196A1EC368FF001D97FC /* Project object */;
 }
